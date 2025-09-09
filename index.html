@@ -80,8 +80,8 @@
             if (userAnswer === correct) {
                 resultDiv.innerHTML = `
                     <p>🎉 Маньяк находится на крыше замка в Лас-Вентурасе, прямо напротив Казино</p>
-                    <img src="IMG_20250909_152956.jpg" alt="Location">
-
+                    <img id="locationImg" src="IMG_20250909_152956.jpg" alt="Location">
+                `;
                 resultDiv.classList.add("show");
                 setTimeout(() => {
                     document.getElementById("locationImg").classList.add("show");
